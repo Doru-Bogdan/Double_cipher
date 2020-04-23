@@ -3,19 +3,22 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		764FA4F7244F90F6008E9B23 /* input.txt in Resources */ = {isa = PBXBuildFile; fileRef = 764FA4F6244F90F6008E9B23 /* input.txt */; };
 		7651A059244DC6BC00F6D9EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7651A058244DC6BC00F6D9EA /* AppDelegate.swift */; };
 		7651A05B244DC6BC00F6D9EA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7651A05A244DC6BC00F6D9EA /* SceneDelegate.swift */; };
 		7651A05D244DC6BC00F6D9EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7651A05C244DC6BC00F6D9EA /* ViewController.swift */; };
 		7651A060244DC6BC00F6D9EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7651A05E244DC6BC00F6D9EA /* Main.storyboard */; };
 		7651A062244DC6BE00F6D9EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7651A061244DC6BE00F6D9EA /* Assets.xcassets */; };
 		7651A065244DC6BE00F6D9EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7651A063244DC6BE00F6D9EA /* LaunchScreen.storyboard */; };
+		767C7184244E4B5600315E31 /* CipherAlgorithms in Frameworks */ = {isa = PBXBuildFile; productRef = 767C7183244E4B5600315E31 /* CipherAlgorithms */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		764FA4F6244F90F6008E9B23 /* input.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
 		7651A055244DC6BC00F6D9EA /* Double_cipher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Double_cipher.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7651A058244DC6BC00F6D9EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7651A05A244DC6BC00F6D9EA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		7651A061244DC6BE00F6D9EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7651A064244DC6BE00F6D9EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7651A066244DC6BE00F6D9EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		767C7182244E4B2700315E31 /* CipherAlgorithms */ = {isa = PBXFileReference; lastKnownFileType = folder; path = CipherAlgorithms; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				767C7184244E4B5600315E31 /* CipherAlgorithms in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,8 +45,10 @@
 		7651A04C244DC6BC00F6D9EA = {
 			isa = PBXGroup;
 			children = (
+				767C7182244E4B2700315E31 /* CipherAlgorithms */,
 				7651A057244DC6BC00F6D9EA /* Double_cipher */,
 				7651A056244DC6BC00F6D9EA /* Products */,
+				767C717F244E4A6700315E31 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,8 +70,16 @@
 				7651A061244DC6BE00F6D9EA /* Assets.xcassets */,
 				7651A063244DC6BE00F6D9EA /* LaunchScreen.storyboard */,
 				7651A066244DC6BE00F6D9EA /* Info.plist */,
+				764FA4F6244F90F6008E9B23 /* input.txt */,
 			);
 			path = Double_cipher;
+			sourceTree = "<group>";
+		};
+		767C717F244E4A6700315E31 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +98,9 @@
 			dependencies = (
 			);
 			name = Double_cipher;
+			packageProductDependencies = (
+				767C7183244E4B5600315E31 /* CipherAlgorithms */,
+			);
 			productName = Double_cipher;
 			productReference = 7651A055244DC6BC00F6D9EA /* Double_cipher.app */;
 			productType = "com.apple.product-type.application";
@@ -126,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7651A065244DC6BE00F6D9EA /* LaunchScreen.storyboard in Resources */,
+				764FA4F7244F90F6008E9B23 /* input.txt in Resources */,
 				7651A062244DC6BE00F6D9EA /* Assets.xcassets in Resources */,
 				7651A060244DC6BC00F6D9EA /* Main.storyboard in Resources */,
 			);
@@ -285,6 +304,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2C66X2MWBF;
 				INFOPLIST_FILE = Double_cipher/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -302,6 +322,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2C66X2MWBF;
 				INFOPLIST_FILE = Double_cipher/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -336,6 +357,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		767C7183244E4B5600315E31 /* CipherAlgorithms */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CipherAlgorithms;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7651A04D244DC6BC00F6D9EA /* Project object */;
 }
