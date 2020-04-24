@@ -1,3 +1,3 @@
 # CipherAlgorithms
 
-A description of this package.
+This package contains the implementation for the Cezar and  Polybius square algorithms.

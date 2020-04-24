@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		760D89E72453850F00C6560A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 760D89E62453850F00C6560A /* README.md */; };
 		764FA4F7244F90F6008E9B23 /* input.txt in Resources */ = {isa = PBXBuildFile; fileRef = 764FA4F6244F90F6008E9B23 /* input.txt */; };
 		7651A059244DC6BC00F6D9EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7651A058244DC6BC00F6D9EA /* AppDelegate.swift */; };
 		7651A05B244DC6BC00F6D9EA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7651A05A244DC6BC00F6D9EA /* SceneDelegate.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		760D89E62453850F00C6560A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		764FA4F6244F90F6008E9B23 /* input.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
 		7651A055244DC6BC00F6D9EA /* Double_cipher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Double_cipher.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7651A058244DC6BC00F6D9EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 		7651A057244DC6BC00F6D9EA /* Double_cipher */ = {
 			isa = PBXGroup;
 			children = (
+				760D89E62453850F00C6560A /* README.md */,
 				7651A058244DC6BC00F6D9EA /* AppDelegate.swift */,
 				7651A05A244DC6BC00F6D9EA /* SceneDelegate.swift */,
 				7651A05C244DC6BC00F6D9EA /* ViewController.swift */,
@@ -145,6 +148,7 @@
 			files = (
 				7651A065244DC6BE00F6D9EA /* LaunchScreen.storyboard in Resources */,
 				764FA4F7244F90F6008E9B23 /* input.txt in Resources */,
+				760D89E72453850F00C6560A /* README.md in Resources */,
 				7651A062244DC6BE00F6D9EA /* Assets.xcassets in Resources */,
 				7651A060244DC6BC00F6D9EA /* Main.storyboard in Resources */,
 			);
